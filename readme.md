@@ -6,7 +6,36 @@ composer update
 ```
 
 Step 2: Create your environment file
-Copy .env.example to .env, update to your own preference.(DB name, user,password)
+Create an .env file, copy contents from .env.example, update to your own preference.(DB name, user,password)
 
+Step3: Migration
+on cmd line
+```
+php artisan migrate
+```
 
 # Done!
+
+#Basic Generator Commands
+Scaffolding
+```
+php artisan infyom:scaffold $MODEL_NAME --datatables=true
+
+OR
+
+\\generate scaffold from existing table
+php artisan infyom:scaffold $MODEL_NAME --fromTable --tableName=$TABLE_NAME
+
+OR
+
+\\api + scaffolding
+php artisan infyom:api_scaffold $MODEL_NAME
+```
+
+
+API
+```
+\\optional pagination
+php artisan infyom:api $MODEL_NAME --paginate=10
+```
+
