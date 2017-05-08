@@ -17,6 +17,7 @@ php artisan migrate
 # Done!
 
 #Basic Generator Commands
+<br \>
 Scaffolding
 ```
 php artisan infyom:scaffold $MODEL_NAME --datatables=true
