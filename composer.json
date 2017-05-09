@@ -12,7 +12,8 @@
         "infyomlabs/adminlte-templates": "5.3.x-dev",
         "infyomlabs/swagger-generator": "dev-master",
         "jlapp/swaggervel": "dev-master",
-        "doctrine/dbal": "~2.3"
+        "doctrine/dbal": "~2.3",
+        "santigarcor/laratrust": "3.2.*"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
